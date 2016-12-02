@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.naive_bayes import BernoulliNB, MultinomialNB
 from sklearn.svm import SVC
 
-fileFolder = os.path.join(os.path.dirname(os.getcwd()), 'DataSource')
+fileFolder = os.path.join(os.getcwd(), 'data')
 
 
 def get_pos_data():
